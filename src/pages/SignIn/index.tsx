@@ -4,7 +4,7 @@ import YellowButton from '../../components/YellowButton';
 import { Link, Redirect } from 'react-router-dom';
 
 import backgroundImage from '../../assets/supermarket.jpg';
-import betelClubCompleteLogo from '../../assets/Logo Club FC CL.png';
+import betelClubCompleteLogo from '../../assets/LogoClubFCCL.png';
 import BasicInput from '../../components/BasicInput';
 import BlueButton from '../../components/BlueButton';
 import SignUp from '../SignUp';
