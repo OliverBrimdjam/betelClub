@@ -30,7 +30,6 @@ export const BackgroundContainer = styled.div`
 `;
 
 export const MainLogoContainer = styled.div`
-
     background-image: url(${betelClubCompleteLogo}) ;
     height: 55vh;
     width: 75vh;
@@ -40,8 +39,6 @@ export const MainLogoContainer = styled.div`
     background-position: center;
     display: inline;
 `;
-
-export const BackgroundImage = styled.div``;
 
 export const FormContainer = styled.div`
     display: flex;
@@ -75,6 +72,29 @@ export const Form = styled.div`
         width: 100%;
         margin: 0px 0px 0px 0px;
     }    
+`;
+
+export const LinkOrangeButton = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--spotlight-secondary);
+    
+    width:  115px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+    border: 0px;
+    text-align: center;
+    a {
+        color: var(--baseColor-white);
+        font-family: 'Roboto Slab', sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+        width:100%;
+        padding-top: calc((54px - 16px)/2);
+        padding-bottom: calc((54px - 16px)/2);
+    }
 `;
 
 export const LinkBlueButton = styled.div`

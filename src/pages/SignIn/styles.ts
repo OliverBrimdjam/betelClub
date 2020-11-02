@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 import backgroundImage from '../../assets/supermarket.jpg';
 
 export const BackgroundContainer = styled.div`

@@ -1,16 +1,13 @@
 import React, { FormEvent } from 'react';
-import { BackgroundContainer, FormContainer, Form, LinkBlueButton, MainLogoContainer } from './styles';
+import { BackgroundContainer, FormContainer, Form, LinkOrangeButton, LinkBlueButton, MainLogoContainer } from './styles';
 import YellowButton from '../../components/YellowButton';
 import { Redirect, Link } from 'react-router-dom';
 import backLogo from '../../assets/Bsograd.png';
 
-
-// import betelClubCompleteLogo from '../../assets/Logo Club FC CL.png';
 import BasicInput from '../../components/BasicInput';
 import BlueButton from '../../components/BlueButton';
 
-
-
+const azul = () => { };
 
 const SignUp: React.FC = () => (
     <BackgroundContainer>
@@ -24,10 +21,13 @@ const SignUp: React.FC = () => (
                     <BasicInput placeHolder="Senha" ></BasicInput>
                     <BasicInput placeHolder="Confirme sua senha" ></BasicInput>
                     <div id="buttonPack">
-                        <YellowButton tag="SignIn" action={"fff"} />
                         <LinkBlueButton>
-                            <Link to="/SignUp">SignUp</Link>
+                            <Link to="/">Voltar</Link>
                         </LinkBlueButton>
+                        <LinkOrangeButton>
+                            <Link to="/">Cadastrar</Link>
+                        </LinkOrangeButton>
+
                     </div>
                 </Form>
             </FormContainer>

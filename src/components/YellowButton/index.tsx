@@ -2,8 +2,8 @@ import React from 'react';
 import { Button } from './styles';
 
 interface ButtonBasicProps {
-    tag: string;
-    action: any;
+    tag?: string;
+    action?: any;
 }
 
 const YellowButton: React.FC<ButtonBasicProps> = (props) => (
