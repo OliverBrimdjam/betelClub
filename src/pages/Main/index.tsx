@@ -14,7 +14,7 @@ const Main = () => {
         <BackgroundContainer>
             <div id="leftPanel">
                 <img src={mainLogo} alt="atacadão betel" />
-                <div>
+                <div id="sideLinkContainer">
                     <SideLink>
                         <Link to="/">Carrinho de compras</Link>
                     </SideLink>
