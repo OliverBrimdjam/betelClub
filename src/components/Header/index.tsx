@@ -1,8 +1,11 @@
 import React from 'react';
+import { HeaderContainer } from './styles';
 
 const Header: React.FC = () => {
     return (
-        <h1>Hi!</h1>
+        <HeaderContainer>
+            <h1>vai chegar</h1>
+        </HeaderContainer>
     );
 };
 

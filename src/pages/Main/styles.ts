@@ -35,5 +35,15 @@ export const BackgroundContainer = styled.div`
         }
     }
 
+    #mainPanel { 
+        flex: 1;
+        height: 100vh;
+
+        #contentContainer {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+
 
 `;

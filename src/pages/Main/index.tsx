@@ -29,7 +29,7 @@ const Main = () => {
             </div>
             <div id="mainPanel">
                 <Header />
-                <div>
+                <div id="contentContainer">
                     <Cart />
                     <Graphs />
                 </div>
