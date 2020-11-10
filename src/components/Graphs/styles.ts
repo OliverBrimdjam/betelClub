@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export const GraphsSt = styled.div`
+export const GraphsContainer = styled.div`
     width: 320px;
-    height: 30vh;
-
-    border: solid;
+    height: calc(var(--ContentMainContainer) - 6px);
+    margin: 3px;
+    border-radius: 5px;
+    background-color: var(--baseColor-white);
 `;

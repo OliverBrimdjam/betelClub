@@ -42,6 +42,8 @@ export const BackgroundContainer = styled.div`
         #contentContainer {
             display: flex;
             flex-direction: row;
+            background-color: var(--baseColor-lighter);
+            height: var(--ContentMainContainer) ;
         }
     }
 

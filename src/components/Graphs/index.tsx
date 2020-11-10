@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { GraphsSt } from './styles';
+import { GraphsContainer } from './styles';
 
 const Graphs: React.FC = () => {
     return (
 
-        <GraphsSt>
+        <GraphsContainer>
             <h1>Vai!</h1>
-        </GraphsSt>
+        </GraphsContainer>
     );
 };
 

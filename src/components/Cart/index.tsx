@@ -1,8 +1,12 @@
 import React from 'react';
+import { CartContainer } from './styles';
 
 const Cart: React.FC = () => {
     return (
-        <h1>Vai!</h1>
+        <CartContainer>
+            <h1>Vai!</h1>
+        </CartContainer>
+
     );
 };
 

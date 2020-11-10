@@ -10,9 +10,12 @@ export default createGlobalStyle`
     --spotlight-secondary: #F26835;
 
     --baseColor: #A6A2A1;
-    --baseColor-lighter: #F2F2F2;
+    --baseColor-lighter: #e5e5e5;
     --baseColor-black: #000000;
-    --baseColor-white: #fff;
+    --baseColor-white: #ffffff;
+
+    --ContentMainContainer: 85vh;
+    
   }
 
   *{
