@@ -5,8 +5,11 @@ import { FiSearch } from 'react-icons/fi';
 const Header: React.FC = () => {
     return (
         <HeaderContainer>
-            <FiSearch size="40" title="pesquisar" />
-            <input type="text" />
+            <div>
+                <FiSearch size="30" title="pesquisar" />
+                <input type="text" />
+            </div>
+
             <div id="SliderContainer">
                 <h1>vai chegar</h1>
             </div>
